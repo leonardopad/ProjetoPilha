@@ -31,7 +31,7 @@ int estacheia ( struct Pilha *p ){
 void empilhar ( struct Pilha *p, float v){
 
 	p->topo++;
-	p->pElem [p->topo] = v;
+	p->pElem [p->topo] = v;// aqui empurra o valor adicionado por ultimo ao topo da pilha
 
 }
 // funcao para retirar valores da pilha
